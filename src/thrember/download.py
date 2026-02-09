@@ -14,47 +14,48 @@ def is_dir(file_path):
 
 
 def download_dataset(download_dir, split="all", file_type="all"):
+    print("[+] download_dataset() called")
+    print("Download dir:", download_dir)
+    print("Split:", split, "| File type:", file_type)
 
-    # cd to download directory
     if not is_dir(download_dir):
         raise ValueError("Not a directory: {}".format(download_dir))
-    if split not in VALID_SPLITS:
-        raise ValueError("split must be in {}".format(", ".join(VALID_SPLITS)))
-    if file_type not in VALID_FILES:
-        raise ValueError("file_type must be in {}".format(", ".join(VALID_FILES)))
-    os.chdir(download_dir)
 
-    # Get split(s) of dataset to download
+    os.chdir(download_dir)
+    print("[+] Changed directory to", os.getcwd())
+
     splits = VALID_SPLITS[1:]
     if split != "all":
         splits = [split]
 
-    # Get file type(s) to download
     file_types = VALID_FILES[2:]
     if file_type == "PE":
         file_types = ["Win32", "Win64", "Dot_Net"]
     elif file_type != "all":
         file_types = [file_type]
 
-    # Download and extract zip files
+    print("[+] Will download:")
+    print("    Splits:", splits)
+    print("    Types :", file_types)
+
     for split in splits:
-        if split == "challenge":
-            continue
         for file_type in file_types:
-            file_name = "{}_{}.zip".format(file_type, split)
-            zip_path = hf_hub_download(repo_id="joyce8/EMBER2024", filename=file_name, repo_type="dataset")
-            print("Unzipping...")
+            file_name = f"{file_type}_{split}.zip"
+            print("[+] Downloading:", file_name)
+
+            zip_path = hf_hub_download(
+                repo_id="joyce8/EMBER2024",
+                filename=file_name,
+                repo_type="dataset"
+            )
+
+            print("[+] Unzipping:", zip_path)
             with zipfile.ZipFile(zip_path, "r") as f:
                 f.extractall(".")
             os.remove(zip_path)
 
-    # Handle the challenge set separately
-    if "challenge" in splits:
-        zip_path = hf_hub_download(repo_id="joyce8/EMBER2024", filename="challenge.zip", repo_type="dataset")
-        with zipfile.ZipFile(zip_path, "r") as f:
-            f.extractall(".")
-        os.remove(zip_path)
-    return
+    print("[✓] DONE downloading dataset")
+
 
 
 def download_models(download_dir):
