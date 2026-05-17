@@ -1,0 +1,325 @@
+{
+    "total_files": 64,
+    "results": [
+        {
+            "file": "MAB_adv_mal_1.bin",
+            "malware_probability": 0.9244408960680242,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_10.bin",
+            "malware_probability": 0.8241093492894574,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_11.bin",
+            "malware_probability": 0.8923285179425942,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_12.bin",
+            "malware_probability": 0.9450636251360751,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_13.bin",
+            "malware_probability": 0.9147577581329928,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_14.bin",
+            "malware_probability": 0.9388835271754481,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_15.bin",
+            "malware_probability": 0.9692125083289961,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_16.bin",
+            "malware_probability": 0.9397240864254837,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_18.bin",
+            "malware_probability": 0.9732955847453065,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_19.bin",
+            "malware_probability": 0.9859133619336725,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_2.bin",
+            "malware_probability": 0.9338181479341935,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_20.bin",
+            "malware_probability": 0.9313354518364498,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_21.bin",
+            "malware_probability": 0.9379547708874126,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_22.bin",
+            "malware_probability": 0.9494752583491151,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_23.bin",
+            "malware_probability": 0.8524913104217978,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_24.bin",
+            "malware_probability": 0.9691843171537493,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_25.bin",
+            "malware_probability": 0.9205345621975444,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_26.bin",
+            "malware_probability": 0.951539607867709,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_27.bin",
+            "malware_probability": 0.9714452519739214,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_28.bin",
+            "malware_probability": 0.9695012726983258,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_29.bin",
+            "malware_probability": 0.9534579747740749,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_3.bin",
+            "malware_probability": 0.9637800052163303,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_30.bin",
+            "malware_probability": 0.9486379087769259,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_31.bin",
+            "malware_probability": 0.9391700429619196,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_32.bin",
+            "malware_probability": 0.9613773831576835,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_33.bin",
+            "malware_probability": 0.932058738598954,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_34.bin",
+            "malware_probability": 0.9595856938490627,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_35.bin",
+            "malware_probability": 0.9648111592274139,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_36.bin",
+            "malware_probability": 0.9540455971738484,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_37.bin",
+            "malware_probability": 0.9591742988586017,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_38.bin",
+            "malware_probability": 0.9482677825759758,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_39.bin",
+            "malware_probability": 0.7322025806916345,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_4.bin",
+            "malware_probability": 0.9658326406397355,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_40.bin",
+            "malware_probability": 0.9626997623153145,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_41.bin",
+            "malware_probability": 0.9720985546274373,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_42.bin",
+            "malware_probability": 0.9169851710953547,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_43.bin",
+            "malware_probability": 0.9662315231312905,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_44.bin",
+            "malware_probability": 0.9633096802988108,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_45.bin",
+            "malware_probability": 0.9275135901146827,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_46.bin",
+            "malware_probability": 0.9555019641547533,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_47.bin",
+            "malware_probability": 0.9091465384496465,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_48.bin",
+            "malware_probability": 0.9577820403098579,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_49.bin",
+            "malware_probability": 0.9341192918098855,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_5.bin",
+            "malware_probability": 0.9725761107776715,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_50.bin",
+            "malware_probability": 0.9692883385033844,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_51.bin",
+            "malware_probability": 0.9465480664226482,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_52.bin",
+            "malware_probability": 0.9720907295880455,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_53.bin",
+            "malware_probability": 0.9412935567781655,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_54.bin",
+            "malware_probability": 0.9742045782202682,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_55.bin",
+            "malware_probability": 0.9777751166471034,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_56.bin",
+            "malware_probability": 0.9595774202774505,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_57.bin",
+            "malware_probability": 0.958503869571748,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_58.bin",
+            "malware_probability": 0.945785616283927,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_59.bin",
+            "malware_probability": 0.8690476962038538,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_6.bin",
+            "malware_probability": 0.966071223896729,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_60.bin",
+            "malware_probability": 0.9764284222926216,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_61.bin",
+            "malware_probability": 0.970303233842481,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_62.bin",
+            "malware_probability": 0.9561394602415436,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_63.bin",
+            "malware_probability": 0.949869605545074,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_64.bin",
+            "malware_probability": 0.9170082021051272,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_65.bin",
+            "malware_probability": 0.9598942812754736,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_7.bin",
+            "malware_probability": 0.9295158787077841,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_8.bin",
+            "malware_probability": 0.969348806231254,
+            "prediction": "malware"
+        },
+        {
+            "file": "MAB_adv_mal_9.bin",
+            "malware_probability": 0.9530634277259754,
+            "prediction": "malware"
+        }
+    ]
+}
